@@ -20,7 +20,7 @@ Al finalizar esta práctica, el estudiante será capaz de:
 ## 📖 Contexto de Negocio — ChatTech con Asistente Virtual
 
 El equipo de LibroTech ha solicitado una herramienta de comunicación en tiempo real para los bibliotecarios llamada **ChatTech**. Para optimizar el tiempo, desean que un **Asistente de Inteligencia Artificial** responda automáticamente a las dudas en la sala de chat. 
-El asistente debe tener "memoria" basada en los mensajes guardados en **MongoDB** para entender el contexto de la conversación.
+El asistente debe tener "memoria" basada en los mensajes guardados en **MongoDB** para entender el contexto de la conversación. Para esto, utilizaremos los modelos de lenguaje de **OpenAI** (como `gpt-3.5-turbo` o `gpt-4o-mini`).
 
 Tu misión es conectar las piezas faltantes: implementar el acceso a MongoDB, construir la vista del chat usando Thymeleaf, y conectar el modelo de lenguaje de Spring AI al ciclo de vida del WebSocket.
 
@@ -30,15 +30,28 @@ Tu misión es conectar las piezas faltantes: implementar el acceso a MongoDB, co
 
 Asume que el siguiente código ya existe en tu proyecto. Revísalo antes de comenzar las actividades.
 
-**1. Dependencias (`pom.xml`)**
+**1. Dependencias y Configuración del Modelo de IA (`pom.xml`)**
 Asegúrate de tener las dependencias de Web, Thymeleaf, MongoDB, WebSocket y **Spring AI** para Spring Boot 4.
 
+En este laboratorio utilizaremos el proveedor **OpenAI**, específicamente el modelo `gpt-3.5-turbo` (o `gpt-4o-mini`), ya que proporciona respuestas rápidas que son ideales para un chat en tiempo real.
+
 ```xml
-<!-- Spring AI Starter (Ejemplo con OpenAI) -->
+<!-- Spring AI Starter para OpenAI -->
 <dependency>
     <groupId>org.springframework.ai</groupId>
     <artifactId>spring-ai-openai-spring-boot-starter</artifactId>
 </dependency>
+```
+
+**Importante:** Recuerda que para utilizar OpenAI, deberás configurar las siguientes propiedades en tu archivo `application.properties`:
+
+```properties
+# Tu clave secreta de la API de OpenAI
+spring.ai.openai.api-key=TU_API_KEY_AQUI
+# El modelo específico que se utilizará para generar el chat
+spring.ai.openai.chat.options.model=gpt-3.5-turbo
+# Puedes ajustar la temperatura (0.0 a 1.0) para hacer las respuestas más creativas
+spring.ai.openai.chat.options.temperature=0.7
 ```
 
 **2. Modelo: `Mensaje.java`**
@@ -285,7 +298,7 @@ Utiliza Thymeleaf para renderizar el historial anterior desde MongoDB, y STOMP/J
 
 ## 🚀 Pruebas de Escalabilidad, IA y Ejecución
 
-1. Configura **MongoDB** y añade tu clave de API (Ej. `spring.ai.openai.api-key`) en `application.properties`.
+1. Configura la conexión a **MongoDB** y verifica que hayas ingresado tu clave de API de OpenAI (`spring.ai.openai.api-key`) y el modelo (`spring.ai.openai.chat.options.model`) en `application.properties`.
 2. Inicia la aplicación.
 3. Abre **dos pestañas diferentes** en `http://localhost:8080/admin/chat`.
 4. Escribe un mensaje en la Pestaña 1. 

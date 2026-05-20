@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title th:text="${tituloPantalla}">Catálogo Estático</title>
+    <!-- Estilos básicos embebidos para el laboratorio -->
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        .empty-state { color: #888; font-style: italic; }
+    </style>
+</head>
+<body>
+
+<h1 th:text="${tituloPantalla}">Lista de Libros</h1>
+
+<!-- Agregue esta línea debajo del H1 -->
+<div style="margin-bottom: 20px;">
+    <a th:href="@{/ui/libros/nuevo}" style="padding: 10px; background-color: #008CBA; color: white; text-decoration: none;">+ Agregar Nuevo Libro</a>
+</div>
+
+<h1 th:text="${tituloPantalla}">Lista de Libros</h1>
+
+<!-- th:if evalúa si la lista está vacía -->
+<div th:if="${#lists.isEmpty(libros)}" class="empty-state">
+    <p>No hay libros registrados en el sistema actualmente.</p>
+</div>
+
+<!-- th:unless es lo opuesto a th:if (si NO está vacía) -->
+<table th:unless="${#lists.isEmpty(libros)}">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Título</th>
+        <th>Autor</th>
+        <th>ISBN</th>
+        <th>Año</th>
+    </tr>
+    </thead>
+    <tbody>
+    <!-- th:each itera sobre la colección ${libros} -->
+    <tr th:each="libro : ${libros}">
+        <td th:text="${libro.id}">1</td>
+        <td th:text="${libro.titulo}">El Quijote</td>
+        <td th:text="${libro.autor}">Cervantes</td>
+        <td th:text="${libro.isbn}">123-456</td>
+        <td th:text="${libro.anioPublicacion}">1605</td>
+    </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
