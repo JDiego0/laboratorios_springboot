@@ -1,0 +1,214 @@
+====================================================================
+PROMPTS PARA MICROSOFT 365 COPILOT
+====================================================================
+INSTRUCCIONES:
+A continuación encontrarás 9 prompts totalmente independientes. 
+Copia el texto desde "[COPIA DESDE AQUÍ]" hasta "[HASTA AQUÍ]" y pégalo 
+en un chat nuevo (o petición nueva) de Copilot para cada sesión.
+
+====================================================================
+[COPIA DESDE AQUÍ] PROMPT - SEMANA 5 - SESIÓN 1
+====================================================================
+Actúa como un Instructor Experto en Desarrollo de Software especializado en el ecosistema Java con Spring Boot. 
+Tu objetivo es crear una presentación de diapositivas completamente independiente y exclusiva sobre temas avanzados de Java y Spring Boot 3 y 4.
+
+Por favor, enfócate estrictamente en los conceptos teóricos, técnicos y arquitectónicos. No incluyas ejemplos de un negocio específico; usa ejemplos genéricos de la industria aplicados a Java y Spring Boot.
+
+Proporciona la siguiente estructura exacta:
+- Título principal de la presentación.
+- 5 a 7 diapositivas visuales.
+- Para cada diapositiva incluye SOLAMENTE: 
+   1. Título de la diapositiva.
+   2. 3-4 viñetas (bullet points) muy breves y concisas.
+
+(ATENCIÓN: Como esto se generará en Gamma App, NO incluyas párrafos largos ni "Notas del Orador" junto al contenido de la diapositiva, ya que arruinarán el diseño visual).
+
+AL FINAL de toda la presentación (después de la última diapositiva), crea una sección completamente separada llamada "GUION DEL INSTRUCTOR". En esta sección final, redacta un párrafo didáctico por cada diapositiva, explicando qué debe decir el orador oralmente para profundizar en el tema.
+
+Aquí está el tema exacto y único que debes cubrir en esta presentación:
+Arquitectura de Datos y Robustez: Patrón DTO y Mapeo de Objetos en Java. Explica el concepto del Data Transfer Object, las diferencias entre Entidades JPA y DTOs, la importancia de la inmutabilidad usando Records en Java 14+, y la automatización del mapeo de datos con la librería MapStruct en el contexto de Spring Boot.
+[HASTA AQUÍ]
+
+====================================================================
+[COPIA DESDE AQUÍ] PROMPT - SEMANA 5 - SESIÓN 2
+====================================================================
+Actúa como un Instructor Experto en Desarrollo de Software especializado en el ecosistema Java con Spring Boot. 
+Tu objetivo es crear una presentación de diapositivas completamente independiente y exclusiva sobre temas avanzados de Java y Spring Boot 3 y 4.
+
+Por favor, enfócate estrictamente en los conceptos teóricos, técnicos y arquitectónicos. No incluyas ejemplos de un negocio específico; usa ejemplos genéricos de la industria aplicados a Java y Spring Boot.
+
+Proporciona la siguiente estructura exacta:
+- Título principal de la presentación.
+- 5 a 7 diapositivas visuales.
+- Para cada diapositiva incluye SOLAMENTE: 
+   1. Título de la diapositiva.
+   2. 3-4 viñetas (bullet points) muy breves y concisas.
+
+(ATENCIÓN: Como esto se generará en Gamma App, NO incluyas párrafos largos ni "Notas del Orador" junto al contenido de la diapositiva, ya que arruinarán el diseño visual).
+
+AL FINAL de toda la presentación (después de la última diapositiva), crea una sección completamente separada llamada "GUION DEL INSTRUCTOR". En esta sección final, redacta un párrafo didáctico por cada diapositiva, explicando qué debe decir el orador oralmente para profundizar en el tema.
+
+Aquí está el tema exacto y único que debes cubrir en esta presentación:
+Arquitectura de Datos y Robustez: Validación de Datos (Jakarta Bean Validation). Explica la importancia de validar datos en la capa de entrada de la API para proteger la base de datos, el uso de anotaciones estándar en el ecosistema Spring (@NotBlank, @Past, @Positive, etc.), y cómo crear validadores de negocio personalizados (Custom Constraint Validators) en Java.
+[HASTA AQUÍ]
+
+====================================================================
+[COPIA DESDE AQUÍ] PROMPT - SEMANA 5 - SESIÓN 3
+====================================================================
+Actúa como un Instructor Experto en Desarrollo de Software especializado en el ecosistema Java con Spring Boot. 
+Tu objetivo es crear una presentación de diapositivas completamente independiente y exclusiva sobre temas avanzados de Java y Spring Boot 3 y 4.
+
+Por favor, enfócate estrictamente en los conceptos teóricos, técnicos y arquitectónicos. No incluyas ejemplos de un negocio específico; usa ejemplos genéricos de la industria aplicados a Java y Spring Boot.
+
+Proporciona la siguiente estructura exacta:
+- Título principal de la presentación.
+- 5 a 7 diapositivas visuales.
+- Para cada diapositiva incluye SOLAMENTE: 
+   1. Título de la diapositiva.
+   2. 3-4 viñetas (bullet points) muy breves y concisas.
+
+(ATENCIÓN: Como esto se generará en Gamma App, NO incluyas párrafos largos ni "Notas del Orador" junto al contenido de la diapositiva, ya que arruinarán el diseño visual).
+
+AL FINAL de toda la presentación (después de la última diapositiva), crea una sección completamente separada llamada "GUION DEL INSTRUCTOR". En esta sección final, redacta un párrafo didáctico por cada diapositiva, explicando qué debe decir el orador oralmente para profundizar en el tema.
+
+Aquí está el tema exacto y único que debes cubrir en esta presentación:
+Arquitectura de Datos y Robustez: Manejo Global de Excepciones. Explica la necesidad de centralizar el manejo de errores en APIs REST mediante el patrón @RestControllerAdvice y @ExceptionHandler en Spring Boot, cómo funciona la intercepción de excepciones de validación, y la estandarización de respuestas de error utilizando la especificación RFC 7807 (ProblemDetail) en Spring 3.
+[HASTA AQUÍ]
+
+====================================================================
+[COPIA DESDE AQUÍ] PROMPT - SEMANA 6 - SESIÓN 1
+====================================================================
+Actúa como un Instructor Experto en Desarrollo de Software especializado en el ecosistema Java con Spring Boot. 
+Tu objetivo es crear una presentación de diapositivas completamente independiente y exclusiva sobre temas avanzados de Java y Spring Boot 3 y 4.
+
+Por favor, enfócate estrictamente en los conceptos teóricos, técnicos y arquitectónicos. No incluyas ejemplos de un negocio específico; usa ejemplos genéricos de la industria aplicados a Java y Spring Boot.
+
+Proporciona la siguiente estructura exacta:
+- Título principal de la presentación.
+- 5 a 7 diapositivas visuales.
+- Para cada diapositiva incluye SOLAMENTE: 
+   1. Título de la diapositiva.
+   2. 3-4 viñetas (bullet points) muy breves y concisas.
+
+(ATENCIÓN: Como esto se generará en Gamma App, NO incluyas párrafos largos ni "Notas del Orador" junto al contenido de la diapositiva, ya que arruinarán el diseño visual).
+
+AL FINAL de toda la presentación (después de la última diapositiva), crea una sección completamente separada llamada "GUION DEL INSTRUCTOR". En esta sección final, redacta un párrafo didáctico por cada diapositiva, explicando qué debe decir el orador oralmente para profundizar en el tema.
+
+Aquí está el tema exacto y único que debes cubrir en esta presentación:
+Seguridad y DevOps: Autenticación Stateless y JWT con Spring Security 6. Explica la diferencia arquitectónica entre sesiones Stateful y Stateless, la anatomía y funcionamiento de un JSON Web Token (JWT), la encriptación unidireccional de contraseñas con BCryptPasswordEncoder, y las estrategias de seguridad en el frontend para mitigar ataques XSS usando Cookies HttpOnly en aplicaciones web.
+[HASTA AQUÍ]
+
+====================================================================
+[COPIA DESDE AQUÍ] PROMPT - SEMANA 6 - SESIÓN 2
+====================================================================
+Actúa como un Instructor Experto en Desarrollo de Software especializado en el ecosistema Java con Spring Boot. 
+Tu objetivo es crear una presentación de diapositivas completamente independiente y exclusiva sobre temas avanzados de Java y Spring Boot 3 y 4.
+
+Por favor, enfócate estrictamente en los conceptos teóricos, técnicos y arquitectónicos. No incluyas ejemplos de un negocio específico; usa ejemplos genéricos de la industria aplicados a Java y Spring Boot.
+
+Proporciona la siguiente estructura exacta:
+- Título principal de la presentación.
+- 5 a 7 diapositivas visuales.
+- Para cada diapositiva incluye SOLAMENTE: 
+   1. Título de la diapositiva.
+   2. 3-4 viñetas (bullet points) muy breves y concisas.
+
+(ATENCIÓN: Como esto se generará en Gamma App, NO incluyas párrafos largos ni "Notas del Orador" junto al contenido de la diapositiva, ya que arruinarán el diseño visual).
+
+AL FINAL de toda la presentación (después de la última diapositiva), crea una sección completamente separada llamada "GUION DEL INSTRUCTOR". En esta sección final, redacta un párrafo didáctico por cada diapositiva, explicando qué debe decir el orador oralmente para profundizar en el tema.
+
+Aquí está el tema exacto y único que debes cubrir en esta presentación:
+Seguridad y DevOps: Autorización (RBAC) y Seguridad en Vistas. Explica el concepto de Control de Acceso Basado en Roles (RBAC), cómo implementar seguridad granular a nivel de método con la anotación @PreAuthorize de Spring Security, y las estrategias de renderizado dinámico de UI en el frontend usando Thymeleaf Extras Spring Security. Incluye una mención sobre cómo testear seguridad con MockMvc.
+[HASTA AQUÍ]
+
+====================================================================
+[COPIA DESDE AQUÍ] PROMPT - SEMANA 6 - SESIÓN 3
+====================================================================
+Actúa como un Instructor Experto en Desarrollo de Software especializado en el ecosistema Java con Spring Boot. 
+Tu objetivo es crear una presentación de diapositivas completamente independiente y exclusiva sobre temas avanzados de Java y Spring Boot 3 y 4.
+
+Por favor, enfócate estrictamente en los conceptos teóricos, técnicos y arquitectónicos. No incluyas ejemplos de un negocio específico; usa ejemplos genéricos de la industria aplicados a Java y Spring Boot.
+
+Proporciona la siguiente estructura exacta:
+- Título principal de la presentación.
+- 5 a 7 diapositivas visuales.
+- Para cada diapositiva incluye SOLAMENTE: 
+   1. Título de la diapositiva.
+   2. 3-4 viñetas (bullet points) muy breves y concisas.
+
+(ATENCIÓN: Como esto se generará en Gamma App, NO incluyas párrafos largos ni "Notas del Orador" junto al contenido de la diapositiva, ya que arruinarán el diseño visual).
+
+AL FINAL de toda la presentación (después de la última diapositiva), crea una sección completamente separada llamada "GUION DEL INSTRUCTOR". En esta sección final, redacta un párrafo didáctico por cada diapositiva, explicando qué debe decir el orador oralmente para profundizar en el tema.
+
+Aquí está el tema exacto y único que debes cubrir en esta presentación:
+Seguridad y DevOps: Observabilidad y Contenedores. Explica la vital importancia de la observabilidad en producción exponiendo métricas de salud con Spring Boot Actuator y el registro de métricas con Micrometer/Prometheus. Luego, introduce la contenerización optimizada de aplicaciones Java usando Dockerfiles Multi-Stage (separando la compilación del runtime JRE) y la orquestación de servicios y bases de datos con Docker Compose.
+[HASTA AQUÍ]
+
+====================================================================
+[COPIA DESDE AQUÍ] PROMPT - SEMANA 7 - SESIÓN 1
+====================================================================
+Actúa como un Instructor Experto en Desarrollo de Software especializado en el ecosistema Java con Spring Boot. 
+Tu objetivo es crear una presentación de diapositivas completamente independiente y exclusiva sobre temas avanzados de Java y Spring Boot 3 y 4.
+
+Por favor, enfócate estrictamente en los conceptos teóricos, técnicos y arquitectónicos. No incluyas ejemplos de un negocio específico; usa ejemplos genéricos de la industria aplicados a Java y Spring Boot.
+
+Proporciona la siguiente estructura exacta:
+- Título principal de la presentación.
+- 5 a 7 diapositivas visuales.
+- Para cada diapositiva incluye SOLAMENTE: 
+   1. Título de la diapositiva.
+   2. 3-4 viñetas (bullet points) muy breves y concisas.
+
+(ATENCIÓN: Como esto se generará en Gamma App, NO incluyas párrafos largos ni "Notas del Orador" junto al contenido de la diapositiva, ya que arruinarán el diseño visual).
+
+AL FINAL de toda la presentación (después de la última diapositiva), crea una sección completamente separada llamada "GUION DEL INSTRUCTOR". En esta sección final, redacta un párrafo didáctico por cada diapositiva, explicando qué debe decir el orador oralmente para profundizar en el tema.
+
+Aquí está el tema exacto y único que debes cubrir en esta presentación:
+Arquitectura Distribuida: Arquitectura Hexagonal (Ports & Adapters) en Spring Boot. Explica el problema del alto acoplamiento a frameworks como Spring o Hibernate en monolitos de software tradicionales, cómo el Principio de Inversión de Dependencias ayuda a aislar el modelo de Dominio puro en Java (POJOs), y cómo la lógica de negocio se comunica con el exterior (Base de datos, Controladores REST) utilizando abstracciones definidas como Puertos y Adaptadores.
+[HASTA AQUÍ]
+
+====================================================================
+[COPIA DESDE AQUÍ] PROMPT - SEMANA 7 - SESIÓN 2
+====================================================================
+Actúa como un Instructor Experto en Desarrollo de Software especializado en el ecosistema Java con Spring Boot. 
+Tu objetivo es crear una presentación de diapositivas completamente independiente y exclusiva sobre temas avanzados de Java y Spring Boot 3 y 4.
+
+Por favor, enfócate estrictamente en los conceptos teóricos, técnicos y arquitectónicos. No incluyas ejemplos de un negocio específico; usa ejemplos genéricos de la industria aplicados a Java y Spring Boot.
+
+Proporciona la siguiente estructura exacta:
+- Título principal de la presentación.
+- 5 a 7 diapositivas visuales.
+- Para cada diapositiva incluye SOLAMENTE: 
+   1. Título de la diapositiva.
+   2. 3-4 viñetas (bullet points) muy breves y concisas.
+
+(ATENCIÓN: Como esto se generará en Gamma App, NO incluyas párrafos largos ni "Notas del Orador" junto al contenido de la diapositiva, ya que arruinarán el diseño visual).
+
+AL FINAL de toda la presentación (después de la última diapositiva), crea una sección completamente separada llamada "GUION DEL INSTRUCTOR". En esta sección final, redacta un párrafo didáctico por cada diapositiva, explicando qué debe decir el orador oralmente para profundizar en el tema.
+
+Aquí está el tema exacto y único que debes cubrir en esta presentación:
+Arquitectura Distribuida: Microservicios Frontend y Patrón BFF. Explica las estrategias para dividir arquitecturas monolíticas en Spring Boot, el patrón Backend-For-Frontend (BFF) para adaptar APIs a clientes específicos, los beneficios de delegar la UI web (ej. Thymeleaf) a su propio servicio independiente sin base de datos, y el consumo moderno de APIs REST internas mediante el cliente HTTP sincrónico RestClient de Spring Framework.
+[HASTA AQUÍ]
+
+====================================================================
+[COPIA DESDE AQUÍ] PROMPT - SEMANA 7 - SESIÓN 3
+====================================================================
+Actúa como un Instructor Experto en Desarrollo de Software especializado en el ecosistema Java con Spring Boot. 
+Tu objetivo es crear una presentación de diapositivas completamente independiente y exclusiva sobre temas avanzados de Java y Spring Boot 3 y 4.
+
+Por favor, enfócate estrictamente en los conceptos teóricos, técnicos y arquitectónicos. No incluyas ejemplos de un negocio específico; usa ejemplos genéricos de la industria aplicados a Java y Spring Boot.
+
+Proporciona la siguiente estructura exacta:
+- Título principal de la presentación.
+- 5 a 7 diapositivas visuales.
+- Para cada diapositiva incluye SOLAMENTE: 
+   1. Título de la diapositiva.
+   2. 3-4 viñetas (bullet points) muy breves y concisas.
+
+(ATENCIÓN: Como esto se generará en Gamma App, NO incluyas párrafos largos ni "Notas del Orador" junto al contenido de la diapositiva, ya que arruinarán el diseño visual).
+
+AL FINAL de toda la presentación (después de la última diapositiva), crea una sección completamente separada llamada "GUION DEL INSTRUCTOR". En esta sección final, redacta un párrafo didáctico por cada diapositiva, explicando qué debe decir el orador oralmente para profundizar en el tema.
+
+Aquí está el tema exacto y único que debes cubrir en esta presentación:
+Arquitectura Distribuida: Service Discovery y API Gateway en Spring Cloud. Explica los desafíos del enrutamiento estático y las direcciones IP dinámicas en entornos de contenedores y nube, cómo solucionar esto implementando descubrimiento de servicios (Service Registry) con tecnologías como Spring Cloud Netflix Eureka, y la centralización del tráfico, seguridad (manejo de JWT global) y políticas de enrutamiento utilizando Spring Cloud Gateway.
+[HASTA AQUÍ]
